@@ -5,3 +5,9 @@ for (var i=0; i < testArr.length; i++) {
     accrual += testArr[i];
     console.log("Num "+testArr[i]+", Sum "+accrual)
 }
+
+for (var i=0; i < testArr.length; i++) {
+    testArr[i] *= i;
+}
+
+console.log(testArr);
